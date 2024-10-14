@@ -1,0 +1,379 @@
+
+*{margin: 0px;
+padding: 0px;
+}
+
+
+
+/* Styling Logo */
+.Dlogo{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+
+}
+/* Supersubscript */
+.sau{
+    color: yellow;
+}/* Styling Image logo */
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+/* Nav styling/ hearder */
+header{background-color: yellow;
+    height: 25vh;
+    background-size: cover;
+
+}
+
+
+
+ul{background-image: url(Images/Na8.jpg);
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 60px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+/* Login & Sign Up styling */
+.signup{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: yellow;
+    border-radius: 3px;
+}
+
+.login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    background-color: yellow;
+    border-radius: 3px;
+    
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4{
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #101111;
+    color: white;
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.deputy{
+    text-align: center;
+    color: #01010b;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.deputy a{
+    color: #0844b2;
+}
+
+/* Destinyfood-sale styling */
+.wel{
+    text-align: center;
+    background-image: url(Images/food1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-width: 100%;
+    min-height: 400px;
+    position: relative;
+}
+
+.food .dfood:hover{
+    cursor: pointer;
+    color: red;
+    font-size: 30px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10PX;
+    min-width: 200px;
+    margin-bottom: 50px;
+    /* border: 3px solid red; */
+    border-width: 100%;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4 image{
+    width: 100%;   
+}
+/* styling order learned page */
+.love{
+    margin-left: l5px;
+    
+}
+.joy{
+    background-image: none;
+    font-size: none;
+}
+
+.smit{
+    width: 50%;
+    margin-left: 20%;
+}
+
+.divs{
+    margin: 10px;
+}
+/* styling About Project page */
+.d1photo img{
+    float: left;
+border-radius: 50%;
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.dinfo img{
+    border-radius: 25px;
+    width: 40%;
+    height: 40%;
+}
+
+.sinfo{
+    float: right;
+    margin-top: 200px;
+    margin-right: 300px;
+}
+
+ .sinfo em{
+    color: red;
+    margin-top: 30px;
+    margin-left: auto;
+}
+
+
+/* styling table */
+table{
+    border-collapse: collapse;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 50px;
+
+
+}
+caption{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr,th,td{
+    border: 5px solid red;
+}
+
+/*styling Form */
+
+.rform{
+    width: 100%;
+    ;
+}
+fieldset{
+    width: 90%;
+}
+
+.sinput {
+    
+    width: 250px;
+    margin-top: 0;
+    
+}
+
+form label{
+    flex-direction: row;
+    margin-top: 0;
+}
+
+textarea{
+    width: 300px;
+    height: 200px;
+    margin-left: 5px;
+
+}
+/* footer styling */
+
+footer{
+    background-color: #2406ce;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    padding: 3rem 1rem;
+    margin-bottom: 50px;
+}
+
+.wisdom{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ser{
+    font-size: 20px;
+    color: white;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.col{
+    max-width: 250px;
+    color: white;
+    font-family: poppins, impact;
+    padding: 0 2rem;
+
+}
+
+.col h3{
+    color: red;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.col h3::after{
+    content: '';
+    height: 3px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.2s ease;
+}
+
+.col h3:hover::after{
+    width: 30px;
+}
+
+.col .social a{
+    color: white;
+    margin-top: 2rem;
+    margin-right: 5px;
+    transition: 0.3s ease;
+}
+
+.col .link a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+#services a{
+    display: block;
+    text-decoration: none;
+    color: yellow;
+}
+
+#services a:hover{
+    background-color: white;
+    color: red;
+}
+
+#contact a{
+    display: block;
+    text-decoration: none;
+    color: red;
+}
+
+.col a:hover{
+    background-color: white;
+    color: red;
+}
+
+em{
+    font-size: x-large;
+    color: yellow;
+}
